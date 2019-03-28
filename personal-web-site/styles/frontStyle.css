@@ -1,0 +1,74 @@
+body {
+  background-color: #0D041D; 
+  font-family: 'Roboto', sans-serif;
+  color: #9D80CB;
+}
+
+.header{
+  padding: 1% 0% 2%;
+  margin: -2% 0px;
+  background-color: #251245;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 500%;
+  padding: 0px;
+}
+
+.navigation{
+  display: block;
+  text-align: center;
+  padding: 0px 5px 20px;
+  color: #694C99;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.navigation li {
+  display: inline;
+  width: 100px;
+  height: 35px;
+  padding: 5px 20px 5px;
+  border: solid 2px;
+  border-radius: 50px;
+  margin: 0px 20px;
+  font-size: 150%;
+}
+
+.navigation > li:hover {
+  color: #251245;
+  background-color:#9D80CB;
+}
+
+.navigation > li > a {
+  display: inline-block;
+  color: #9D80CB;
+  height: 25px;
+  text-decoration: none;
+}
+
+.navigation > li:hover > a{
+  color: #251245;
+  background-color:#9D80CB;
+  font-weight: bold;
+}
+
+#profile{
+  width: 30%;
+  height: 30%;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid;
+  padding: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profileDiv{
+  padding: 5%;
+  float: center;
+}
